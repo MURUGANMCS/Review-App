@@ -1,0 +1,99 @@
+/* Write your code here */
+* {
+  font-family: roboto;
+}
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+}
+.user-image {
+}
+.left-btn {
+  background-color: transparent;
+  border-style: none;
+  padding-right: 30px;
+}
+.right-btn {
+  background-color: transparent;
+  border-style: none;
+  padding-left: 30px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.user-details {
+  text-align: center;
+  width:70vw;
+}
+
+@media screen and (min-width: 567px) {
+  .user-image {
+    height: 200px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .user-details {
+    font-size: 20px;
+  }
+  .arrow-img {
+    height: 40px;
+  }
+  .left-btn {
+    padding-right: 70px;
+  }
+  .right-btn {
+    padding-left: 70px;
+  }
+  .user-companyName {
+    font-size: 20px;
+  }
+  .user-name {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .user-image {
+    height: 250px;
+  }
+  .heading {
+    font-size: 60px;
+  }
+  .user-details {
+    font-size: 25px;
+  }
+  .arrow-img {
+    height: 50px;
+  }
+  .left-btn {
+    padding-right: 100px;
+  }
+  .right-btn {
+    padding-left: 100px;
+  }
+  .user-companyName {
+    font-size: 25px;
+  }
+  .user-name {
+    font-size: 30px;
+  }
+}
